@@ -201,3 +201,7 @@ body.show-num .text p::before {
 }
 
 [hidden] { display: none !important; }
+
+/* 場面の区切り（＊） */
+.text p.sep { text-indent: 0; text-align: center; margin: 1.6em 0; letter-spacing: 0; }
+body.show-num .text p.sep::before { content: none; }
